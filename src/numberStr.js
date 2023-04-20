@@ -5,7 +5,6 @@ function findNumber(str) {
     if (value.includes("a")) {
       i++;
     }
-    // return i;
   });
   return i;
 }
