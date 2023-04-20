@@ -12,3 +12,7 @@ test("largest to equal 8", () => {
   const arr = [-5, 2, 8, -1, 6];
   expect(findmax(arr)).toEqual(8);
 });
+test("largest to equal 4", () => {
+  const arr = [1.5, 1.2, 4, -2.5, 3.7];
+  expect(findmax(arr)).toEqual(4);
+});
