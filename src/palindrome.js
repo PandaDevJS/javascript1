@@ -3,7 +3,6 @@ function printSubStr(newStr, low, high) {
   for (let i = low; i <= high; ++i) {
     string.push(newStr[i]);
   }
-
   return string.join("");
 }
 function longestPalSubstr(str) {
@@ -26,6 +25,6 @@ function longestPalSubstr(str) {
     }
   }
 
-  return printSubStr(newStr, start, start + maxLength - 1);
+  return printSubStr(newStr, start, start + maxLength - 1).length;
 }
 module.exports = longestPalSubstr;
