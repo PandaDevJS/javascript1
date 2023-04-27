@@ -1,12 +1,14 @@
 const commonString = require("./commonStr");
 
 test("Commont string is 'hello' ", () => {
-  let arr = ["hello", "hello world"];
+  let str1 = "hello";
+  let str2 = "hello world";
 
-  expect(commonString(arr)).toEqual("hello");
+  expect(commonString(str1, str2)).toEqual("hello");
 });
-test("Commont string is 'hello' ", () => {
-  let arr = ["abcdef", "abczyzcdef"];
+test("Commont string is 'cdef' ", () => {
+  let str1 = "abcdef";
+  let str2 = "abczyzcdef";
 
-  expect(commonString(arr)).toEqual("abc");
+  expect(commonString(str1, str2)).toEqual("cdef");
 });
