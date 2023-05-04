@@ -16,3 +16,7 @@ test("largest to equal 4", () => {
   const arr = [1.5, 1.2, 4, -2.5, 3.7];
   expect(findmax(arr)).toEqual(4);
 });
+test("largest to equal -1.2", () => {
+  const arr = [-1.5, -1.2, -4, -2.5, -3.7];
+  expect(findmax(arr)).toEqual(-1.2);
+});
