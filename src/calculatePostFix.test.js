@@ -1,4 +1,4 @@
-const evaluatePostfix = require("./convertPostFix");
+const evaluatePostfix = require("./calculatePostFix");
 
 test("result is 25", () => {
   let str = "1 + 2 * (3 * 4)";
